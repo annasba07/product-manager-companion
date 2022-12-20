@@ -1,0 +1,354 @@
+1670389610286	geckodriver	INFO	Listening on 127.0.0.1:54232
+1670389717458	geckodriver	INFO	Listening on 127.0.0.1:54403
+1670389720530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54404" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofiletqXyE6"
+1670389720838	Marionette	INFO	Marionette enabled
+1670389720842	Marionette	INFO	Listening on port 50742
+Read port: 50742
+WebDriver BiDi listening on ws://127.0.0.1:54404
+1670389720956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofiletqXyE6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54404/devtools/browser/6b410f40-e70d-4643-9a7a-602bd278c2fe
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+1670389748859	Marionette	INFO	Stopped listening on port 50742
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670390070495	geckodriver	INFO	Listening on 127.0.0.1:64424
+1670390073577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64425" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileaulPeX"
+1670390073980	Marionette	INFO	Marionette enabled
+1670390073985	Marionette	INFO	Listening on port 64436
+Read port: 64436
+WebDriver BiDi listening on ws://127.0.0.1:64425
+1670390074099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileaulPeX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64425/devtools/browser/596e9eab-0f52-4f6d-aa38-f793133ca2cf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=52da359e14163eb37786b095576268728c6d487039452d67 line 2 > eval line 5882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670390111032	Marionette	INFO	Stopped listening on port 64436
+1670390126606	geckodriver	INFO	Listening on 127.0.0.1:60426
+1670390129683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60427" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofile9SMxpB"
+1670390129955	Marionette	INFO	Marionette enabled
+1670390129958	Marionette	INFO	Listening on port 60438
+WebDriver BiDi listening on ws://127.0.0.1:60427
+Read port: 60438
+1670390130122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofile9SMxpB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60427/devtools/browser/d044a3bc-46bc-4158-ae00-5f12550f6edc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=f9cfc09ead4f700cee0354c6379fa8f2272379dab51402ac line 2 > eval line 2758 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670390184762	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOS3ciTynrLSCAEAsCYjlf3BKiIhWAuz7g1esCWWHWSTRb94kvJcak-FWlQ8W8-_mLlDgCNeg8IZBdW_bMzXWz3osoZZuHnj0b5xXI_eSNpbqEnyzd6WDlsuF9GM0VXb4M-blg-MHkiV3tOZ7ndE_hr896PM8VuJ8D7omrLwbkL2VdrBnBkOwByLpUhJHhIidgGFhMHkEZdanjgwJ-vDmCiHqrF_kTp0rQIOyPOENcYYPCxh7StzzWdmQ8QFlRPtTzVb4XbbRA9UgGyLZQxePiPntn8jeTTPYJrhoHE2HNidERltHIj4WwMT9XlihBHKk0nafR6PB_-KtQJk4ShApO2rW2guP8gQ7w2TpmVyvjkN_Oi6wGhqg2b-0JZTFw4MAKXu10QRvoW7tiS1Q3bH6RQEGH9YrQs9cQx1YILXdvrqNHa88IVqglPEBo1rRcTBlCGYGF5kdDiKzyH1bBuU34cCckXMajK0zqVIW-NHLuO5-9Xjdg%26as%3DS-1979328438%253A1670390135128162%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbtXc4nvLATbHeA-IHxGupsPBkME-bZuAcAJiqy7JsQpzWt2zLWmyVO7oVqWup_12dbyhc0GhU4NsSSqlF_e66TpM0m26nlcI2rt1AYuYafeIT6AvRC2Oxr-65k4DVtHW_XN0JRP&PersistentCookie=1&service=lso line 2 > eval line 1481 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670390186092	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670390193651	Marionette	INFO	Stopped listening on port 60438
+1670390217626	geckodriver	INFO	Listening on 127.0.0.1:59064
+1670390220689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileuXF9Y5"
+1670390220978	Marionette	INFO	Marionette enabled
+1670390220981	Marionette	INFO	Listening on port 59076
+Read port: 59076
+WebDriver BiDi listening on ws://127.0.0.1:59065
+1670390221079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileuXF9Y5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59065/devtools/browser/3f85a56f-adf1-4990-9a79-3441ea6f8631
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=341b31f92e87512711c310c376050c6ef3cb97d5652c887c line 2 > eval line 3048 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670390255563	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANumxNkoYpsWAM0CEPhwgu_JSIMgQBWSkNpqUWvhGwPbktWu7hC9syNvhTwh_aqcTIh7POOnUrGH_Vz7o3twpUaIx1VIYS0y-cj8bIqYCjwVMCmkr9DKS3bU-HheGfTquv7s0lDy_jXX76so6ErbmFStWjNIFcBhVY7zmWN2TcA4nATXkCdxAeUEKKlKlhOg-GVryu_ws9Gap8pdNa-Km0gjA0R3LGZZCo63-NHoTHwjitJiMlJ2TVr2ZPeqGgLjnwDYxGhBEHsmc6ghNOo_RKV-U4LfpKRgUTk9gWtuIHHlisYfGLFsvFd5jx3nWghLXabEMF5Toe7tYULVDk05zYU2zgFdYZ__Vg9MAK0YztFp98arqG9gYhPt3i9MALTC8exrP5VzkZhLHiy3hMktzA0aVfs4qFWKWA_DmiB7uLQQsSeMd6Oxog63fwpT5DIli5cSeWYcGTL0Pjkc8ovgLIaubWEaehbksp3S0fUGeCrgiTnOYk%26as%3DS1778526257%253A1670390227314736%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbsm8rHm39MC6VSeok9XE89nPe4NVJuGK2uHTn9yIbpWtO6zvH259LumupRbbAwYa2l6kxwu4-USOjLVs32g05EQY-zHSbQgf0fmyLg7RFhZJeQrmF-u3GDDKh2enIX_8cb_vCeb&PersistentCookie=1&service=lso line 2 > eval line 1215 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670390256823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670390288369	Marionette	INFO	Stopped listening on port 59076
+1670390298343	geckodriver	INFO	Listening on 127.0.0.1:57094
+1670390301421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilet4h5iS"
+1670390301692	Marionette	INFO	Marionette enabled
+1670390301696	Marionette	INFO	Listening on port 57105
+WebDriver BiDi listening on ws://127.0.0.1:57095
+Read port: 57105
+1670390301857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilet4h5iS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57095/devtools/browser/6da0d5c5-ca22-4bf9-9f04-b57fe7ae04d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=85a838c032ed97d3a413a3e533dfb2772cdd880f24374ce3 line 2 > eval line 7690 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670390365027	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670390365274	Marionette	INFO	Stopped listening on port 57105
+1670390563381	geckodriver	INFO	Listening on 127.0.0.1:57451
+1670390566440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileIlpfnb"
+1670390566740	Marionette	INFO	Marionette enabled
+1670390566744	Marionette	INFO	Listening on port 57462
+Read port: 57462
+WebDriver BiDi listening on ws://127.0.0.1:57452
+1670390566827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileIlpfnb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57452/devtools/browser/3456752d-dff4-41bb-892c-9f1ca862a5a4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=6390a03eb4f01427eea4149d5a93234cc45c7bd25a5fc702 line 2 > eval line 1112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670390603096	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPL-VEkcolGi840z5Z0heuTwPfV4XkjYf9iRKmocEmMMIYiB0r1MXf-Uw3y5U5GFxW4ClKRlHtltmyNZ9CobcnFVoVbSd5p1rq63v3E65WDqSqL3V4PsQy2_RSnjSqF_dAPqnO0knmZ5T_ejdqDnqyHiZ4L_C9j80Zx6ZRCmuN97MiVICtdbnxm9_LFfj83BAZGXNxY8I0shfbu9_2kj8ulMAd-iRdC8FQBUZEl70w8YeiZyq8-myNdveVcg-PetlhhFvH5nMXbjjKF1Nu9nhSh2E6TtyRukz4qTCc8Ywv5re8ax1PCAaSTpOjSIH-5IBlwwEVWddYogTQhuPKryQi0Sm7RKbQVjA77aYrRax3VMuf-PgtgbZFLTjqC0dt4qoTMzIFFCpGQcSd4Xk6bQiR1eIW_j7puYGvm1MVuoTXF3YSdxJeDf4Iaq6QtWVyJCV_9hp2Sf51-cDn2kpSiv9MDoQJxoXxCXFLzE24m9yz4xW_sDtM%26as%3DS1678499684%253A1670390573636754%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbu15rwJ1gNyxfVanS8QKzTTwPhKcdFggIroBBEVhg_eI9-G1kVvk9EPnZwgqrn1ItKkxKcMaa_6RYmHqZfsOSNCqD-nzxZvd-aFtXYaG5o4XyVbG1Ph8kKN1s0He8shusJz_pQn&PersistentCookie=1&service=lso line 2 > eval line 84 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670390604408	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670390694271	Marionette	INFO	Stopped listening on port 57462
+[Parent 21760, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1670390965592	geckodriver	INFO	Listening on 127.0.0.1:50586
+1670390968684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilewVuLoX"
+1670390968955	Marionette	INFO	Marionette enabled
+1670390968958	Marionette	INFO	Listening on port 50598
+WebDriver BiDi listening on ws://127.0.0.1:50587
+Read port: 50598
+1670390969121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilewVuLoX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50587/devtools/browser/c2b5a7c2-8b32-4471-af77-99790ee8c739
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=06dc67a9c95a7726adfa7fe6dee761c255e789947f8af3b4 line 2 > eval line 4467 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670391007883	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMJRoeSV3u3qJHXj0Mt3L1OhBGGGttYJYnVx7fiVXRBDfgfq6aJxO6cnApEpVG3Bj_x12snZHf2ahWYHwkMEO6KkZSnrmNeLomBcLTfJAZVM0I-C0UkWiBbPirhSvGGPKbJsV5KVNTC28O1SUrbT-rec74XJbSxZwESFrU3kTTwT4_V50WVgYCDBFYlFvs4ocOkkWXCoX4cEP9SvY0t0G5muG9Kve-Da5wSe5Fse0DMtuaAxeuxtdEwthJYhle_z_SwRpmMXCp4as2CyjF_rs2H4I7bsJFf0qHMBfHwhd8m7k7cpPPuOQ-NaWRYyECAT3Py0tu8ctRL9eXJG3Z9mejQGPRN0GVorF0P3EW0VUVUy9CWjbyQEAr_hQHJOEU788oiVmXs6Ny9Q-GBnCGX-H8TAK1guMVPC-KtVJD0u4qio574bJeA49tzGWM5CYyTAfpX-YH2H_GU7MGAS5e7B1hJ6AfpakzPuG-iHGDMmAw8ubyx-Ik%26as%3DS2081108137%253A1670390974071009%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbuFQslHpZ0MM3lETJJscHg5kJexCaj55ov5sKpihFPn1OhNSiVq3gWRSRvjMrGlnyJ1CYSSNfrBVTWqplE-iM5Ayf3NK3j-Y4lZITjpa7uIGmW6qozq4zrUyk0ngkR9td_H8d7r&PersistentCookie=1&service=lso line 2 > eval line 2162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670391009253	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670391078200	geckodriver	INFO	Listening on 127.0.0.1:61242
+1670391081276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileYQpWb9"
+1670391081567	Marionette	INFO	Marionette enabled
+1670391081570	Marionette	INFO	Listening on port 61253
+Read port: 61253
+WebDriver BiDi listening on ws://127.0.0.1:61243
+1670391081656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileYQpWb9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61243/devtools/browser/91bf4c9f-3711-47b2-ae8c-6d7e77327067
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=f688a268654ed540cd914c669033053959e91cef732c517c line 2 > eval line 1606 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670391123800	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANnBHzyN1h0IHxJvX_P_UV68U12pQZxqanXcSSGONBvxHYKSohBLkRmMAdlAWp811BznkI-8T-8Br4Img7odyNnkfdzdnwBvUx5r0s6VTv4M-fNnFyDAFw9OwgrIRGaPEs8rasvMFggVkKp0AXwKzQz2y2stfq26hynEiCKVIV8UOi8UgzmFamyxdzD-1c_HccL8ccNVTdyHW_O9feypwrt1th68HvgrdyQEkMQLDH6Pmgi571OwpBMNQtW02WVBPnzklwhJ3BKkIASDTwa0LBvQg3WBBcbPe-RipHIC5y7w6TwoJICE8W3hjc9ff4ETYRPJorJd_hkkkJqofEd8lOcltfPUpelAXHPP2Zfe6qXolo8rR_5Wyw94Bgr0mUd3srvtcxL0oM3vkWESU9HpACn3IG9Dey4oDAYv8uLezd7SxwiOiVuUGp1kN-0jBmg7ho3H1ZggIxunXuchNwZtyoAnT-AzQJNwE1yDTWSXH4bzu7_N5I%26as%3DS100780530%253A1670391086848871%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbsxsw2ZVgawVezOqve9-SBi8vHGaX0Dwnm3Ul_5mxJYyNRfVYhOsLShSg3693Qt-kg9NOVAI7n9kpuGBzS8EDiKzBvD5ARaQ78Iwwr4muPb254i2JneUJ0FiiOb6B9ymXLlxIEU&PersistentCookie=1&service=lso line 2 > eval line 559 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670391125169	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670391218627	Marionette	INFO	Stopped listening on port 61253
+1670431244881	geckodriver	INFO	Listening on 127.0.0.1:52394
+1670431247981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofile2r7j8Y"
+1670431248328	Marionette	INFO	Marionette enabled
+1670431248331	Marionette	INFO	Listening on port 52405
+WebDriver BiDi listening on ws://127.0.0.1:52395
+Read port: 52405
+1670431248604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofile2r7j8Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52395/devtools/browser/b543b0c6-4e07-4181-9a9e-5c43d0a91687
+1670431253204	Marionette	INFO	Stopped listening on port 52405
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670431278139	geckodriver	INFO	Listening on 127.0.0.1:52513
+1670431281202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilesiBQRG"
+1670431281459	Marionette	INFO	Marionette enabled
+1670431281462	Marionette	INFO	Listening on port 52525
+WebDriver BiDi listening on ws://127.0.0.1:52514
+Read port: 52525
+1670431281650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilesiBQRG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52514/devtools/browser/3736e94a-ab0e-4af4-90b4-cc9c03bd50cf
+1670431285145	Marionette	INFO	Stopped listening on port 52525
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670431298541	geckodriver	INFO	Listening on 127.0.0.1:52612
+1670431301613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilecmPi3G"
+1670431301864	Marionette	INFO	Marionette enabled
+1670431301867	Marionette	INFO	Listening on port 52624
+WebDriver BiDi listening on ws://127.0.0.1:52613
+Read port: 52624
+1670431302063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilecmPi3G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52613/devtools/browser/ed14c10f-a25c-4819-8ac9-f86d6f3f6f63
+1670431304024	Marionette	INFO	Stopped listening on port 52624
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670432047088	geckodriver	INFO	Listening on 127.0.0.1:53155
+1670432050183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53156" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileRHUMYd"
+1670432050429	Marionette	INFO	Marionette enabled
+1670432050432	Marionette	INFO	Listening on port 53167
+WebDriver BiDi listening on ws://127.0.0.1:53156
+Read port: 53167
+1670432050620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileRHUMYd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53156/devtools/browser/8ff86261-73f9-44a1-b1a2-e2a4f3f35155
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=7d4dd3e24f8f95489c0b2b8144ed82f0927d4bd1413a589e line 2 > eval line 4377 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670432082182	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM9Vh8FrOlwvNL9B3ANnQ6IYvVyWcGbXrAcZxlY_qnAYpt8MDp4O59hyZ3-UHBIRswADH4RHOHGorWv6WXFZ1zy7bAgeD_D5moKGmLzPRAT7p9vX6p6rLDprM2KB_7ohgSg3oqEAtX_eyxjT6lALhYrl66DE92Xd0cYx4qJFCuAJTFRK2YcQ4y8wxhWbnexa9auYGdd35h5YT0LPS_frecmz7SEMkgJGhQqSASTRKA3OAhqfK7epumweJGmZUangYNUObgCHIAQd_VwB7WoJJ4UKr4fMH_YkUHeF5iZdN8hAou93xxS5BqU04rTJv9OLBM7r2Xx3rEw6x2hU9-qMSg0pMnQzUabUGk8ClYv8iGZWDmCQWmlLGb9DS7SXKMEj8WgzbrWtV2l--z69zu_CS8Nso1qWuq2czuH4Ar0sz47uVtsg00TTOItZ4vTlVMUon9N5KcxrPBha7FIqbOC1BZsCHwpYVVqlbHxXb-P3mriwMAQkBQ%26as%3DS-401705308%253A1670432054559498%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbtGlmi9RGvns-zMCbm6tzYD3QhcOT2tET3jynCLIPwtPxadz0KAKX2R-e17gD1OEwOulH3Mq4Rlv6Lku3t0zAHneVmGf9G_FlobOqDkZmAX4LcMSsiuTc04-XIYLKDhdBgFcTTr&PersistentCookie=1&service=lso line 2 > eval line 4195 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670432083325	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670432145666	Marionette	INFO	Stopped listening on port 53167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670432240201	geckodriver	INFO	Listening on 127.0.0.1:53463
+1670432243288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53464" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileBe6qOI"
+1670432243557	Marionette	INFO	Marionette enabled
+1670432243560	Marionette	INFO	Listening on port 53475
+WebDriver BiDi listening on ws://127.0.0.1:53464
+Read port: 53475
+1670432243764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileBe6qOI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53464/devtools/browser/7e0aac2b-a6b9-4a6a-b30c-5d144a80815c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=6d78054aed7d3cf9071c490c214d1750b4b85d3750c52187 line 2 > eval line 5760 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670432274051	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOatsYzLDZmeyeYnYxYTFCfJlWO5tobwOHMTXBWRFtyNsPVAzztel3gAVNb7JdNhLCSfY0XvUJoJf2_0vSk8v5edpWRzu7eC0I4c_zgzKCBHfDaXbd6sou58qgtCqfa-vUsOUlk6Fuh-FM5j4TPJs1sPCuKW5Scx2PTN5ssI9aGQ5PadHT6Z7ki1G1tjRrG9zBl_qBomnVK5qoJ_vOqKnycr87lpeN2ZfHNNomVz0ogjDftGjsvH1k8aI5XEr-lGtGLUTQGtGGsrbaCSiStRq27C8WUZbwXL3Gdb7bzSI8AE5t-xFWWXCghi7sfqyX0V9zSXXjJAU1Dl8RZqDNXT3I7dzvijCl-1BSr6lIYts_FXuzM0oz4u7AeUZISzJ2lBRWkVHGzRl15WnCvfRH7pidvW-c0fBz8SGQF5l348jfmJERCIKEI-l50eaeEJkM1MjzEh3EyUjpcJZ1l5WfL34u_nI485EVb9azZVE-76eba7IVZ8Ts%26as%3DS-787830273%253A1670432248786390%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbv-UQqqph6osE0ab7ZbGFVbaWeWkFpju-QDD8v9snT3YTA6iwIa4DIRayLiuUenkXVrjxFbjctpuaQ19yadcWOVpGUA9u7Qqzrj_dfF8ZeNosubjRXxM1VQZBUJkFgJRmJCYzaN&PersistentCookie=1&service=lso line 2 > eval line 6529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670432275224	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670433043219	Marionette	INFO	Stopped listening on port 53475
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "55147" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilemPqUQF"
+1670433035879	Marionette	INFO	Marionette enabled
+1670433035882	Marionette	INFO	Listening on port 55161
+WebDriver BiDi listening on ws://127.0.0.1:55147
+Read port: 55161
+1670433036068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilemPqUQF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55147/devtools/browser/51edb213-a6cf-43ab-a288-5c5feb9d4e0d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=6f453841ea45bd98a11d187d58b523b3a056d0e770bd7272 line 2 > eval line 5691 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670433072538	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN9tuyUBfbIED4Lt33mzwsk3AkBIoisXwzBvDj6tUNeDP7dZ-g4QVBHaTUwgdGp0d_kCJ-xBWDEWPmCFiEk0Rgdod97RzTSpwWKtVTg_EIptFc7hskA8UvEiBKMpwTbQ4r52sWh3LysiIMpoRH3_tFEu8zKg-y2ySaVpDP_eszXr9SvLdqFCuWkk-HFV3FL-CqkEVPpBx-zIurX4IPDFBTw4wZEUZ2JKgU1Udrw9tP1vUjw2LY4BCd5pPR02F2GUNGkjryq993TRl9Q47_jTERS7vOkZNVRCgcqm6nbrW7SRZTcviaANIn7YZhhxNeCj4wqaYx52oPKbpIhFP-Y1wsdeeRmfiXD5rMuE-qZtzugBUFzCgZDtK8AeUz3p1JYz1go6FFhQ2r3xKvP1u35RGpw6mbcZfX5dvHiepfWS0Tid40DE0FQZOsHDhqhjSLKPHzBc6bl_IZysCtBZ96coU2mT08gWqhWW7Gp_k4YvTKFXuOjlc8%26as%3DS-1979446352%253A1670433041273293%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbtHOVwG7R7LKqp7v6Tk9876B0yXxO2vUu80-9CyBncjIob4holiGJA5gdkWYJKiyS0zhbf_ZybRi85-juCYyDpK0DOSr8b_XuRNQHZeBnvmbI4Bpk_j-OUcNzTeg2ZHr-tyTaaH&PersistentCookie=1&service=lso line 2 > eval line 7763 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670433073853	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+fox.exe" "--marionette" "--remote-debugging-port" "55716" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileoJn7Ms"
+1670433466431	Marionette	INFO	Marionette enabled
+1670433466435	Marionette	INFO	Listening on port 55728
+WebDriver BiDi listening on ws://127.0.0.1:55716
+Read port: 55728
+1670433466620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofileoJn7Ms\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55716/devtools/browser/4c530471-534e-4631-ab0b-2fa330f31ebc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=b590e56c4589d669422811105be3cc5fd5faa72a0bb11349 line 2 > eval line 7227 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670433514504	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANRK5hnG8oIn0IFFvVp7FV5AuuYHk5SlilfMzZftARBp2PMobUpfuBUy5rFYkAtj9bLYRgv_SL0M-_3_vYRN5kxlk2ajoXafkvMXrwjDhKZS8wq-FmNvQOzUkqhYXxSV1zEkHt2qCm1s-IhqYRD81_KNOzja2C6377yKX1fiN1D18hLxSFXUzAH_c6naY7MCRN68wWXXZTJCUsYoXQF8eZSo5nqdSfpq3HVoWY425r5W8lyJBSEn75eX7x-G4BOj-8h_706lcHZh94rBqTFAKgQlSb5Mcloq5_p4v5lx8CQ--Mnam7heQUIkbTyPNIhh68I6CLeeiRuz-wN4wTuAd-AxTFE0e8pT9DT_3ca-N5N6lWS2am4VehIJpktlJVQ_tU2S9rqAEqWnenrVQzsn3520AZJAri-LNZFF4smmmgeoEK7Q7SKFFZkjYfQkFk0LiwMfnBV33sZoURcaZ8wprxt5mF9cA%26as%3DS67256227%253A1670433489768186%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbuG4hRN9-OpBj3SXOOlPCZCxHb3DXQ02KVeRVpJAmtWr_rKOswEcNSVVx9LYmBdJSW_RN09NWuhvIuNh2uogVqpPiM9omT0XrD0-PFfFh-ho4CmY2ClZbBwmZddZjcIZUiwW2uM&PersistentCookie=1&service=lso line 2 > eval line 92 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670433515660	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670441705142	Marionette	INFO	Stopped listening on port 55728
+[Parent 24676, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+\\Temp\\rust_mozprofilehfNPw5"
+1670433667792	Marionette	INFO	Marionette enabled
+1670433667795	Marionette	INFO	Listening on port 56060
+Read port: 56060
+WebDriver BiDi listening on ws://127.0.0.1:56049
+1670433667862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilehfNPw5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56049/devtools/browser/5b330af2-61e1-4676-a54c-cd05166ea77e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=f18861164cff2bf95f2c7d29831b0aa9bf7170274e2bf7b6 line 2 > eval line 2254 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+1670433702184	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.google.com/signin/continue?sarp=1&scc=0&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN9P5aoRmg4OvGDsUvIf3l7arVY_EMwocJ4s3bKFcUkuG2zZQklpk0abF9eCnaqKKFLa-deGVhGOC0jJLgL6bXVXrNOSTIFihOVdXDiEpvb10UQbHNKzqs2IccgYJU5FLDDrMXAa5UVu2rkbBHJGSbaGk_2Kfzth8_ltjlgkuksOlT8-en15nobdP-y9HlC7UNZcsAOmLQcx0UMnS7zXoJoZsgH3maEJDCpsC-X04zlr1fvGF-HWd7FzlofiNmTV_dMH5LaiSKmcW_Rb77BJCRMIBlniWjSa2Yx6r3d10t5-DXggiDA1jquSE_jsDSkcHW_iFZh2cZ4OlP_2WnlLxNiUzwktwluInAwzOr14kHgTsXcdDagBNQcHyy72gN3cvmSssHTynXUNxCvAgRlXK3fgohNHbJBl1c5IGPSUX6AWdGG-l7daBPgh-jQg9bRBbaz67SKtJBF-HDoBlTYgalZ3HDkYA%26as%3DS134666132%253A1670433673799310%26client_id%3D1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com%23&plt=AKgnsbvTQJn8xiEAJzLCLCtX5tMlNflCV3s0U1fSAfElsErQi0UygeO9dU_Q3Kj1mEq4VZfAAan20fkCBeAaxTiqrabo7OfUd4d1bNeNOieVhOTGlgNcLzzY36ntxj49A11L4m508lkd&PersistentCookie=1&service=lso line 2 > eval line 1543 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1670433703365	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1670441706139	Marionette	INFO	Stopped listening on port 56060
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "61031" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilelTs1e3"
+1670440388549	Marionette	INFO	Marionette enabled
+1670440388553	Marionette	INFO	Listening on port 61042
+Read port: 61042
+WebDriver BiDi listening on ws://127.0.0.1:61031
+1670440388646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\annas\\AppData\\Local\\Temp\\rust_mozprofilelTs1e3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61031/devtools/browser/0b24d4a8-7c27-4996-ba90-82a037b0c7ce
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=740ef4cc9ccdb31440f0b4923e81fea10585a86ba014da51 line 2 > eval line 4552 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+JavaScript warning: https://ok12static.oktacdn.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://outschool.okta.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://program.reforge.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 163: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1026621745880-226i72nrv98t4elco3qcrb7u1iobv49o.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fprogram.reforge.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=ff2e6c14bb34c37f262870a8f1a9d816c280fcb2ba18e191 line 2 > eval line 4156 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670440520168	Marionette	INFO	Stopped listening on port 61042
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

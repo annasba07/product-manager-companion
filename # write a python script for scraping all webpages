@@ -1,0 +1,31 @@
+# write a python script for scraping all webpages in a url and saving text in files that correspond to each webpage
+
+import requests
+from bs4 import BeautifulSoup
+import os
+
+url = 'https://www.nytimes.com/'
+r = requests.get(url)
+r_html = r.text
+
+soup = BeautifulSoup(r_html, 'html.parser')
+
+for story_heading in soup.find_all(class_="story-heading"):
+    if story_heading.a:
+        print(story_heading.a.text.replace("\n", " ").strip())
+    else:
+        print(story_heading.contents[0].strip())
+
+# create a folder to store the text files
+os.makedirs('nytimes', exist_ok=True)
+
+# write the text files
+for story_heading in soup.find_all(class_="story-heading"):
+    if story_heading.a:
+        file_name = story_heading.a.text.replace("\n", " ").strip()
+        with open(os.path.join('nytimes', file_name), 'w') as f:
+            f.write(story_heading.a.text.replace("\n", " ").strip())
+    else:
+        file_name = story_heading.contents[0].strip()
+        with open(os.path.join('nytimes', file_name), 'w') as f:
+            f.write(story_heading.contents[0].strip())
