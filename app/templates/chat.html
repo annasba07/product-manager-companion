@@ -6,24 +6,94 @@
     <meta charset="UTF-8">
     <title>Chat</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+      .chat-bubble {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 10px;
+      }
+      .chat-bubble.mine {
+          align-items: flex-end;
+      }
+      .chat-bubble.other {
+          align-items: flex-start;
+      }
+      .chat-bubble.mine .text {
+          background-color: #007bff;
+          color: white;
+      }
+      .chat-bubble.other .text {
+          background-color: #f8f9fa;
+          color: black;
+      }
+      .chat-bubble .text {
+          border-radius: 20px;
+          padding: 10px 20px;
+          font-size: 16px;
+      }
+      .chat-bubble.mine .text:before {
+          content: '';
+          position: absolute;
+          right: 100%;
+          top: 18px;
+          border: solid transparent;
+          border-right-color: #007bff;
+          border-width: 10px;
+          margin-top: -10px;
+      }
+      .chat-bubble.other .text:before {
+          content: '';
+          position: absolute;
+          left: 100%;
+          top: 18px;
+          border: solid transparent;
+          border-left-color: #f8f9fa;
+          border-width: 10px;
+          margin-top: -10px;
+      }
+      form {
+            position: fixed;
+            bottom: 0;
+            width: 60%;
+            margin-bottom: 30px;
+        }
+  </style>
+
 </head>
 <body>
-    <div class="container mt-5">
-        <h1 class="text-center">Chat</h1>
-        <p>Topic: {{ topic }}</p>
-        <div class="messages">
-            {% for message in messages %}
-                <p>{{ message }}</p>
-            {% endfor %}
-        </div>
-        <form action="/questions" method="post">
-            <div class="form-group">
-                <label for="question">Question:</label>
-                <input type="text" class="form-control" id="question" name="question">
-            </div>
-            <input type="hidden" name="messages" value="{{ messages|tojson }}">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </div>
+  <div class="container mt-5">
+      <h1 class="text-center">Chat</h1>
+      <p>Topic: {{ topic }}</p>
+      <div class="messages">
+          {% for message in messages %}
+              {% if loop.index % 2 == 1 %}
+                  <div class="chat-bubble other">
+                      <div class="text">{{ message }}</div>
+                  </div>
+              {% else %}
+                  <div class="chat-bubble mine">
+                      <div class="text">{{ message }}</div>
+                  </div>
+              {% endif %}
+          {% endfor %}
+      </div>
+      <form action="/chat" method="post">
+          <div class="form-group">
+              <label for="question">Question:</label>
+              <input type="text" class="form-control" id="question" name="question">
+          </div>
+         
+          <input type="hidden" name="messages" value="{{ messages|tojson }}">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </div>
 </body>
+
+
+
+
+
 </html>
+
+
