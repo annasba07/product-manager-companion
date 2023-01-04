@@ -27,23 +27,25 @@ def chat():
     messages = session.get('messages', [])
     
     if request.method == 'POST':
-        if request.path == '/clear_session':
-            # Clear the messages list in the session storage
-            session['messages'] = []
-        else:
-            question = request.form['question']
-            #messages = request.form['messages']
-            response = utils.get_response(question)
-            #messages = list(messages)
-            #app.logger.warning(messages)
-            #logger.info('This is an info message')
-            messages.append(question)
-            messages.append(response)
-            session['messages'] = messages
+        question = request.form['question']
+        #messages = request.form['messages']
+        response = utils.get_response(question)
+        #messages = list(messages)
+        #app.logger.warning(messages)
+        #logger.info('This is an info message')
+        messages.append(question)
+        messages.append(response)
+        session['messages'] = messages
     return render_template('chat.html', topic=topic, messages=messages, scroll_to_bottom=True)
 
 
 
+@bp.route('/clear_convo', methods=['POST'])
+def clear_convo():
+    # Clear the messages list in the session storage
+    session['messages'] = []
+    # Redirect to the chat page
+    return redirect(url_for('chat'))
 
 
 
