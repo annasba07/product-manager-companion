@@ -2,9 +2,15 @@
 
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 import json
+from flask import Flask
 from app import utils
 
+import logging
+
 bp = Blueprint('routes', __name__)
+
+app = Flask(__name__)
+logger = logging.getLogger(__name__)
 
 @bp.route('/')
 def index():
@@ -16,11 +22,16 @@ def index():
 @bp.route('/chat', methods=['GET', 'POST'])
 def chat():
     topic = request.args.get('topic')
+    #messages = []
     messages = request.args.get('messages', [])
+    
     if request.method == 'POST':
         question = request.form['question']
-        messages = json.loads(request.form['messages'])
+        messages = request.form['messages']
         response = utils.get_response(question)
+        messages = list(messages)
+        app.logger.warning(messages)
+        logger.info('This is an info message')
         messages.append(question)
         messages.append(response)
     return render_template('chat.html', topic=topic, messages=messages)
@@ -38,3 +49,4 @@ def questions():
     messages.append(question)
     messages.append(response)
     return redirect(url_for('routes.chat'))
+
