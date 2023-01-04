@@ -59,6 +59,21 @@
             width: 60%;
             margin-bottom: 30px;
         }
+
+        .messages {
+        height: 400px;
+        overflow-y: scroll;
+    }
+
+    .messages::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
   </style>
 
 </head>
@@ -87,10 +102,22 @@
          
           <input type="hidden" name="messages" value="{{ messages|tojson }}">
           <button type="submit" class="btn btn-primary">Submit</button>
+          <form method="post" action="/clear_session">
+            <button type="submit" class="btn btn-secondary">Clear Convo</button>
+        </form>
       </form>
   </div>
 </body>
 
+{% if scroll_to_bottom %}
+<script>
+    // Get the .messages div
+    const messagesDiv = document.querySelector('.messages');
+
+    // Scroll the .messages div to the bottom
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+</script>
+{% endif %}
 
 
 
