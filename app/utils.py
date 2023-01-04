@@ -2,7 +2,8 @@
 
 def get_response(question):
     # Implement logic for generating a response to the user's question here
-    response = "Here is the answer to your question: ..."
+    response = question
+    response = response + response
     return response
 
 
