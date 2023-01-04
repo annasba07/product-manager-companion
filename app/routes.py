@@ -45,7 +45,7 @@ def clear_convo():
     # Clear the messages list in the session storage
     session['messages'] = []
     # Redirect to the chat page
-    return redirect(url_for('chat'))
+    return redirect(url_for('routes.chat'))
 
 
 
