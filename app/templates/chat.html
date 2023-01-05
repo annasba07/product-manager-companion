@@ -16,9 +16,12 @@
       }
       .chat-bubble.mine {
           align-items: flex-end;
+          justify-content: flex-start;
       }
       .chat-bubble.other {
           align-items: flex-start;
+          justify-content: flex-end;
+          
       }
       .chat-bubble.mine .text {
           background-color: #007bff;
@@ -63,6 +66,7 @@
         .messages {
         height: 400px;
         overflow-y: scroll;
+        
     }
 
     .messages::-webkit-scrollbar {
