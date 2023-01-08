@@ -1,12 +1,13 @@
 
 
-openai.api_key = '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'
 
 
+import openai
+import pandas as pd
 
 from openai.embeddings_utils import get_embedding, cosine_similarity
 
-
+openai.api_key = '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'
 COMPLETIONS_MODEL = "text-davinci-002"
 
 
@@ -41,8 +42,37 @@ def get_answer(question, context):
 def get_context():
     context = None
 
+def get_content():
+    content = 
+    input_datapath = 'file path.csv'  # to save space, we provide a pre-filtered dataset
+    df = pd.read_csv(input_datapath, index_col=0)
+    return df
+
+
+
 def generate_response(question):
+    
+    #get question embeddings
     questionem = question_embeddings(question)
+
+    #get embedded content
+    content = get_content()
+
+    #get similarity
+    
+
+    #get top 5 most similar
+
+
+    #get context
+
+
+    #get answer
+
+
+
+
+
 
 
 
