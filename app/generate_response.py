@@ -20,14 +20,14 @@ def question_embeddings(question):
     return embedding
 
 
-def create_context(question, context):
+def create_prompt(question, context):
     query = "Q: " + question + " A: "
     prompt = """You are a product management expert. Answer the question in detail using the provided context, and if the answer is not contained in the text above then answer it how you normally would. Explain things in a lot of detail.   \n"""
     return prompt + context + query
 
 
 def get_answer(question, context):
-    prompt = create_context(question, context)
+    prompt = create_prompt(question, context)
     response = openai.Completion.create(
         prompt=prompt,
         temperature=0,
@@ -40,8 +40,8 @@ def get_answer(question, context):
     return response
 
 
-def get_context():
-    context = None
+def get_context(similarInfo):
+    return similarInfo[:5]
 
 def get_content():
     input_datapath = 'file path.csv'  # to save space, we provide a pre-filtered dataset
@@ -64,15 +64,16 @@ def generate_response(question):
     content = get_content()
 
     #get similarity
+    similarity = get_similarity(content, questionem)
 
-
-    #get top 5 most similar
-
+    #get top 10 most similar
+    top5 = similarity.head(10)
 
     #get context
-
+    context = get_context(top5)
 
     #get answer
+    answer = get_answer(question, context)
 
 
 
