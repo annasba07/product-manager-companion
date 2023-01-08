@@ -25,4 +25,6 @@ urllib3==1.26.7
 Werkzeug==2.0.2
 Flask-Session==0.3.2
 plotly
-scikit-learn scipy matplotlib
+scikit-learn 
+scipy 
+matplotlib
