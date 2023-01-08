@@ -23,8 +23,26 @@ def create_context(question, context):
     prompt = """You are a product management expert. Answer the question in detail using the provided context, and if the answer is not contained in the text above then answer it how you normally would. Explain things in a lot of detail.   \n"""
     return prompt + context + query
 
-question = "what is the future of product management? \n"
-query = "Q: " + question + " A: "
+
+def get_answer(question, context):
+    prompt = create_context(question, context)
+    response = openai.Completion.create(
+        prompt=prompt,
+        temperature=0,
+        max_tokens=500,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0,
+        model=COMPLETIONS_MODEL
+    )["choices"][0]["text"].strip(" \n")
+    return response
+
+
+def get_context():
+    context = None
+
+def generate_response(question):
+    questionem = question_embeddings(question)
 
 
 
@@ -41,16 +59,6 @@ len(context)
 
 
 
-prompt = """You are a product management expert. Answer the question in detail using the provided context, and if the answer is not contained in the text above then answer it how you normally would. Explain things in a lot of detail.   \n""" + context + query
 
-openai.Completion.create(
-    prompt=prompt,
-    temperature=0,
-    max_tokens=500,
-    top_p=1,
-    frequency_penalty=0,
-    presence_penalty=0,
-    model=COMPLETIONS_MODEL
-)["choices"][0]["text"].strip(" \n")
 
 
