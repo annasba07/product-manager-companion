@@ -4,6 +4,7 @@
 
 import openai
 import pandas as pd
+import numpy as np
 
 from openai.embeddings_utils import get_embedding, cosine_similarity
 
@@ -43,12 +44,16 @@ def get_context():
     context = None
 
 def get_content():
-    content = 
     input_datapath = 'file path.csv'  # to save space, we provide a pre-filtered dataset
     df = pd.read_csv(input_datapath, index_col=0)
     return df
 
 
+def get_similarity(df, embeddingpm):
+    df["similarities"] = df.embeddings.apply(lambda x: np.dot(np.array(embeddingpm), np.array(x)))
+    df = df.sort_values(by=['similarities'], ascending=False)
+    df = df.reset_index(drop=True)
+    return df
 
 def generate_response(question):
     
@@ -59,7 +64,7 @@ def generate_response(question):
     content = get_content()
 
     #get similarity
-    
+
 
     #get top 5 most similar
 
@@ -72,19 +77,6 @@ def generate_response(question):
 
 
 
-
-
-
-
-df["similarities"] = df.embeddings.apply(lambda x: np.dot(np.array(embeddingpm), np.array(x)))
-df = df.sort_values(by=['similarities'], ascending=False)
-df = df.reset_index(drop=True)
-
-
-context = df.combined[0]
-#+ df.combined[1] 
-#+ df.combined[2]  + df.combined[3]
-len(context)
 
 
 
