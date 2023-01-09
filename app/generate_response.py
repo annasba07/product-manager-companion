@@ -22,7 +22,7 @@ def question_embeddings(question):
 
 def create_prompt(question, context):
     query = "Q: " + question + " A: "
-    prompt = """You are a product management expert. Answer the question in detail using the provided context, and if the answer is not contained in the text above then answer it how you normally would. Explain things in a lot of detail.   \n"""
+    prompt = """You are a product management expert and thought partner. Answer the question in detail using the provided context, and if the answer is not contained in the text above then answer it how you normally would. Explain things in a lot of detail. Don't repeatedly say "there is no one-size-fits-all answer to this question:. Here are the past few messages between you and the user   \n"""
     return prompt + context + query
 
 
