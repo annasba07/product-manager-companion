@@ -8,6 +8,9 @@ from bs4 import BeautifulSoup
 
 
 
+
+
+#get content from medium
 #save the links we wanna scrape
 arificial_intelligence = "https://medium.com/tag/product-management"
 
@@ -146,4 +149,41 @@ for i in finallinks:
 
 df.to_csv('pmmediumdataframe.csv')
 
+
+
+
+
+
+
+
+
+#get RSS content
+import feedparser
+
+def get_articles_from_rss_feed(rss_feed_url):
+    feed = feedparser.parse(rss_feed_url)
+    articles = []
+    for entry in feed.entries:
+        article = {}
+        article['title'] = entry.title
+        article['link'] = entry.link
+        article['summary'] = entry.summary
+        articles.append(article)
+    return articles
+
+rss_feed_url = 'https://www.producttalk.org/feed/'
+articles = get_articles_from_rss_feed(rss_feed_url)
+
+product_management_rss =   'https://blog.feedspot.com/product_management_rss_feeds/'
+
+#parses a url using requests and beautifulsoup and returns links
+
+def get_links(url):
+    r = requests.get(url)
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    links = soup.find_all('a', class_='ext')
+    return links
+
+links = get_links(product_management_rss)
 
