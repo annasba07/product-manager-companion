@@ -5,73 +5,65 @@ import urllib.request
 import requests
 import bs4
 from bs4 import BeautifulSoup
-
-
+from selenium import webdriver
+import time
+import pandas as pd
+import numpy as np
 
 
 
 #get content from medium
+
 #save the links we wanna scrape
-arificial_intelligence = "https://medium.com/tag/product-management"
-
-from selenium import webdriver
-
-driver = webdriver.Chrome('C:/Software Projects/chromedriver_win32/chromedriver.exe')
-driver.get(arificial_intelligence)
-
-import time
-from selenium import webdriver
-
-# Web scrapper for infinite scrolling page 
-time.sleep(2)  # Allow 2 seconds for the web page to open
-scroll_pause_time = 1 # You can set your own pause time. My laptop is a bit slow so I use 1 sec
-screen_height = driver.execute_script("return window.screen.height;")   # get the screen height of the web
-i = 1
-
-while True:
-    # scroll one screen height each time
-    driver.execute_script("window.scrollTo(0, {screen_height}*{i});".format(screen_height=screen_height, i=i))  
-    i += 1
-    time.sleep(scroll_pause_time)
-    # update scroll height each time after scrolled, as the scroll height can change after we scrolled the page
-    scroll_height = driver.execute_script("return document.body.scrollHeight;")  
-    # Break the loop when the height we need to scroll to is larger than the total scroll height
-    if (screen_height) * i > scroll_height:
-        break
-
-res = driver.execute_script("return document.documentElement.outerHTML")
-print(res)
 
 
-#prettify res with beautiful soup
-
-soup = BeautifulSoup(res, 'lxml')
-print(soup.prettify())
-
-b = soup.find_all('div', {"class": "ke kf kg kh ki l"})
-
-# get text from beautiful soup object and put it in a list
+def set_medium_topic(topic):
+    return "https://medium.com/tag/" + topic
 
 
+product_management_medium = "product-management"
 
-text = []
-for i in b:
-    text.append(i.text)
+def scrape_medium(topic):
+    driver = webdriver.Chrome('C:/Software Projects/chromedriver_win32/chromedriver.exe')
+    driver.get(set_medium_topic(topic))
 
-text[0]
+    # Web scrapper for infinite scrolling page 
+    time.sleep(2)  # Allow 2 seconds for the web page to open
+    scroll_pause_time = 1 # You can set your own pause time. My laptop is a bit slow so I use 1 sec
+    screen_height = driver.execute_script("return window.screen.height;")   # get the screen height of the web
+    i = 1
 
+    while True:
+        # scroll one screen height each time
+        driver.execute_script("window.scrollTo(0, {screen_height}*{i});".format(screen_height=screen_height, i=i))  
+        i += 1
+        time.sleep(scroll_pause_time)
+        # update scroll height each time after scrolled, as the scroll height can change after we scrolled the page
+        scroll_height = driver.execute_script("return document.body.scrollHeight;")  
+        # Break the loop when the height we need to scroll to is larger than the total scroll height
+        if (screen_height) * i > scroll_height:
+            break
 
-# get href link from bs object and put in list
+    res = driver.execute_script("return document.documentElement.outerHTML")
+    driver.quit()
+   
+    #prettify res with beautiful soup
+    soup = BeautifulSoup(res, 'lxml')
+    #print(soup.prettify())
+    b = soup.find_all('div', {"class": "ke kf kg kh ki l"})
 
-c = soup.find_all('a', {"class": "ae af ag ah ai aj ak al am an ao ap aq ar as"})
+    # get text from beautiful soup object and put it in a list
+    text = []
+    for i in b:
+        text.append(i.text)
 
+    # get href link from bs object and put in list
+    c = soup.find_all('a', {"class": "ae af ag ah ai aj ak al am an ao ap aq ar as"})
 
-links = []
-for i in c:
-    links.append(i.get('href'))
+    links = []
+    for i in c:
+        links.append(i.get('href'))
 
-
-links
 
 # remove all items that include the word signin from links
 
@@ -128,17 +120,13 @@ print(len(links))
 
 finallinks = ['https://www.medium.com' + i for i in links]
 
-import pandas as pd
-import numpy as np
+
 
 df = pd.DataFrame({'titles': titles, 'links': finallinks})
 
 # scrape all text from each link in links4
 
-import urllib.request
-import requests
-import bs4
-from bs4 import BeautifulSoup
+
 
 content = []
 for i in finallinks:
