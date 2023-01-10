@@ -28,9 +28,9 @@ def get_response(question):
 
     #take the last 6 message and join them together by saying one message is "Q: " and the other is "A: "
     if len(similarInfo) > 4:
-        context = " A: " + similarInfo[-5] + " Q: " + similarInfo[-4] + " A: " + similarInfo[-3] + " Q: " + similarInfo[-2] + " A: " + similarInfo[-1]
+        context = " A: " + similarInfo[-5] + "\n Q: " + similarInfo[-4] + "\n A: " + similarInfo[-3] + "\n Q: " + similarInfo[-2] + "\n A: " + similarInfo[-1]
     elif len(similarInfo) > 2:
-        context = " A: " + similarInfo[-3] + " Q: " + similarInfo[-2] + " A: " + similarInfo[-1]
+        context = " A: " + similarInfo[-3] + "\n Q: " + similarInfo[-2] + "\n A: " + similarInfo[-1]
     elif len(similarInfo) > 0:
         context = " A: " + similarInfo[-1] 
 
