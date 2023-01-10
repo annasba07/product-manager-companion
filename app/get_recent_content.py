@@ -10,6 +10,7 @@ import time
 import pandas as pd
 import numpy as np
 import datetime
+import feedparser
 
 
 
@@ -83,6 +84,28 @@ def scrape_medium(topic):
 #rss feed directory url
 rss_directory_url = 'https://blog.feedspot.com/rss_directory/'
 
+#parses a url using requests and beautifulsoup and returns links
+productmanagement_rss_feed_url = 'https://blog.feedspot.com/product_management_rss_feeds/'
+
+def get_links(url):
+    links = []
+    r = requests.get(url)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    page = soup.find_all('a', class_='ext')
+
+    for i in page:
+        links.append(i['href'])
+
+    links = list(filter(None, links))
+
+    return links
+
+def get_articles_from_all_rss_feeds():
+
+
+links = get_links(productmanagement_rss_feed_url)
+print(links)
+
 def get_articles_from_rss_feed(rss_feed_url):
     feed = feedparser.parse(rss_feed_url)
     articles = []
@@ -94,18 +117,7 @@ def get_articles_from_rss_feed(rss_feed_url):
         articles.append(article)
     return articles
 
-productmanagement_rss_feed_url = 'https://blog.feedspot.com/product_management_rss_feeds/'
 
-articles = get_articles_from_rss_feed(productmanagement_rss_feed_url)
 
-#parses a url using requests and beautifulsoup and returns links
-
-def get_links(url):
-    r = requests.get(url)
-    soup = BeautifulSoup(r.text, 'html.parser')
-
-    links = soup.find_all('a', class_='ext')
-    return links
-
-links = get_links(productmanagement_rss_feed_url)
-
+articles = get_articles_from_rss_feed('https://www.producttalk.org/feed/')
+print(articles)
