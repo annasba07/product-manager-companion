@@ -79,7 +79,9 @@ def scrape_medium(topic):
 
 
 #get RSS content
-import feedparser
+
+#rss feed directory url
+rss_directory_url = 'https://blog.feedspot.com/rss_directory/'
 
 def get_articles_from_rss_feed(rss_feed_url):
     feed = feedparser.parse(rss_feed_url)
@@ -92,8 +94,9 @@ def get_articles_from_rss_feed(rss_feed_url):
         articles.append(article)
     return articles
 
-rss_feed_url = 'https://www.producttalk.org/feed/'
-articles = get_articles_from_rss_feed(rss_feed_url)
+productmanagement_rss_feed_url = 'https://www.producttalk.org/feed/'
+
+articles = get_articles_from_rss_feed(productmanagement_rss_feed_url)
 
 product_management_rss =   'https://blog.feedspot.com/product_management_rss_feeds/'
 
