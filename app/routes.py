@@ -28,15 +28,18 @@ def chat():
     
     if request.method == 'POST':
         question = request.form['question']
+        messages.append(question)
+        session['messages'] = messages
         #messages = request.form['messages']
         response = utils.get_response(question)
         #messages = list(messages)
         #app.logger.warning(messages)
         #logger.info('This is an info message')
-        messages.append(question)
+        
         messages.append(response)
         session['messages'] = messages
     return render_template('chat.html', topic=topic, messages=messages, scroll_to_bottom=True)
+
 
 
 
@@ -46,6 +49,7 @@ def clear_convo():
     session['messages'] = []
     # Redirect to the chat page
     return redirect(url_for('routes.chat'))
+
 
 
 

@@ -28,3 +28,4 @@ plotly
 scikit-learn 
 scipy 
 matplotlib
+selenium
