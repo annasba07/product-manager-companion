@@ -9,19 +9,16 @@ from selenium import webdriver
 import time
 import pandas as pd
 import numpy as np
+import datetime
 
 
 
 #get content from medium
 
-#save the links we wanna scrape
-
 
 def set_medium_topic(topic):
     return "https://medium.com/tag/" + topic
 
-
-product_management_medium = "product-management"
 
 def scrape_medium(topic):
     driver = webdriver.Chrome('C:/Software Projects/chromedriver_win32/chromedriver.exe')
@@ -49,98 +46,34 @@ def scrape_medium(topic):
    
     #prettify res with beautiful soup
     soup = BeautifulSoup(res, 'lxml')
-    #print(soup.prettify())
-    b = soup.find_all('div', {"class": "ke kf kg kh ki l"})
 
-    # get text from beautiful soup object and put it in a list
-    text = []
-    for i in b:
-        text.append(i.text)
+    # finding the right div and class for all links
+    extract = soup.find_all('div', {"class": "q ab"})
 
-    # get href link from bs object and put in list
-    c = soup.find_all('a', {"class": "ae af ag ah ai aj ak al am an ao ap aq ar as"})
+    #finding the right div and class for all text
+    extract2 = soup.find_all('div', {"class": "jx l"})
+
+    titles = []
+    for i in extract2:
+        titles.append(i.find('h2').text)
 
     links = []
-    for i in c:
-        links.append(i.get('href'))
+    for i in extract:
+        thing = i.find_all('div', {"class": "ab q"})
+        for i in thing:
+            links.append(i.find('a').get('href'))
 
+    content = []
+    for i in finallinks:
+        url = i
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, "html.parser")
+        content.append(soup.get_text())
 
-# remove all items that include the word signin from links
-
-links2 = [i for i in links if 'signin' not in i]
-#links2 = [i for i in links2 if '?' not in i]
-
-# remove all duplicates form links2
-
-links3 = list(dict.fromkeys(links2))
-
-
-
-# finding the right div and class for all links
-extract = soup.find_all('div', {"class": "q ab"})
-
-#finding the right div and class for all text
-extract2 = soup.find_all('div', {"class": "jx l"})
-
-len(extract)
-len(extract2)
-
-# print length of extract and extract2
-
-print(len(extract))
-print(len(extract2))
-
-
-# find h2 child of extract
-
-titles = []
-
-for i in extract2:
-    titles.append(i.find('h2').text)
-
-print(len(titles))
-
-#find href from temp
-
-links2 = []
-
-for i in temp:
-    links2.append(i.find('a').get('href'))
-
-links = []
-
-for i in extract:
-    thing = i.find_all('div', {"class": "ab q"})
-    for i in thing:
-        links.append(i.find('a').get('href'))
-
-
-print(len(links))
-
-
-finallinks = ['https://www.medium.com' + i for i in links]
-
-
-
-df = pd.DataFrame({'titles': titles, 'links': finallinks})
-
-# scrape all text from each link in links4
-
-
-
-content = []
-for i in finallinks:
-    url = i
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
-    content.append(soup.get_text())
-
-df.to_csv('pmmediumdataframe.csv')
-
-
-
-
-
+    finallinks = ['https://www.medium.com' + i for i in links]
+    df = pd.DataFrame({'titles': titles, 'links': finallinks})
+    df["content"] = content
+    df.to_csv(topic + 'data'+ datetime.datetime.now() +'.csv')
 
 
 
