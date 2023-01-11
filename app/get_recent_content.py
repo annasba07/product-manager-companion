@@ -100,7 +100,6 @@ def get_links(url):
 
     return links
 
-def get_articles_from_all_rss_feeds():
 
 
 links = get_links(productmanagement_rss_feed_url)
@@ -117,7 +116,17 @@ def get_articles_from_rss_feed(rss_feed_url):
         articles.append(article)
     return articles
 
-
+def get_articles_from_all_rss_feeds():
+    links = get_links(rss_directory_url)
+    articles = []
+    for link in links:
+        articles.extend(get_articles_from_rss_feed(link))
+    return articles
 
 articles = get_articles_from_rss_feed('https://www.producttalk.org/feed/')
 print(articles)
+allarticles = get_articles_from_all_rss_feeds()
+
+#save allarticles into csv
+df = pd.DataFrame(allarticles)
+df.to_csv('allrssarticles.csv')
