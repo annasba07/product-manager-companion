@@ -24,7 +24,7 @@ def get_response(question):
     elif len(similarInfo) > 0:
         context = " A: " + similarInfo[-1] 
 
-   
+    print(context)
     
    
 
