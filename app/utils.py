@@ -25,7 +25,7 @@ def get_response(question):
         context = " Q: " + similarInfo[-1] 
 
     print(context)
-    
+    print('hello world')
    
 
     get_answer = generate_response.get_answer(question, context)
