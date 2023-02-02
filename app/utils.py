@@ -1,4 +1,5 @@
 # app/utils.py
+# function for getting response
 from app import generate_response
 from flask import session
 
