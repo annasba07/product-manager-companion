@@ -1,9 +1,9 @@
 # app/utils.py
-# function for getting response
+
 from app import generate_response
 from flask import session
 
-
+# function for getting response
 def get_response(question):
     # Implement logic for generating a response to the user's question here
     
