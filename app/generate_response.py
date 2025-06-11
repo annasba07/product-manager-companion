@@ -8,7 +8,8 @@ import numpy as np
 
 from openai.embeddings_utils import get_embedding, cosine_similarity
 
-openai.api_key = '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'
+import os
+openai.api_key = os.getenv("OPENAI_API_KEY")
 COMPLETIONS_MODEL = "text-davinci-002"
 
 
